@@ -33,6 +33,13 @@ const Profile = ({navigation, route}) => {
         title="Edit Profile"
         color="#f0f"
       />
+      <ButtonComponent
+        onPressFunction={() => {
+          navigation.navigate(navigationStrings.CAMERA);
+        }}
+        title="Open Camera"
+        color="#f003"
+      />
     </View>
   );
 };

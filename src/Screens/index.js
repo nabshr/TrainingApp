@@ -5,6 +5,7 @@ export {default as ProductDetails} from './ProductDetails';
 export {default as Search} from './Search';
 export {default as Login} from './Login';
 export {default as Map} from './Map';
+export {default as Camera} from './Camera';
 export {default as EditProfile} from './EditProfile';
 export {default as HomeStack} from '../Navigations/HomeStack';
 export {default as ProfileStack} from '../Navigations/ProfileStack';

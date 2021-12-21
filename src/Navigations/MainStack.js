@@ -1,6 +1,6 @@
 import React from 'react';
 import navigationStrings from '../Constants/navigationStrings';
-import {Login} from '../Screens';
+import {Camera, Login} from '../Screens';
 import TabRoutes from './TabRoutes';
 
 export default function (Stack) {
@@ -12,6 +12,7 @@ export default function (Stack) {
         name={navigationStrings.TABS}
         component={TabRoutes}
       />
+      <Stack.Screen name={navigationStrings.CAMERA} component={Camera} />
 
       {/* <Stack.Screen
         name={navigationStrings.PRODUCT_DETAILS}

@@ -11,4 +11,5 @@ export default {
   EDIT_PROFILE: 'Edit Profile',
   LOGIN: 'Login',
   MAP: 'Map',
+  CAMERA: 'Camera',
 };

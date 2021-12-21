@@ -29,8 +29,8 @@ const styles = StyleSheet.create({
     fontFamily: 'IndieFlower-Regular',
   },
   button: {
-    width: 150,
     height: 50,
+    paddingHorizontal: 20,
   },
   buttonView: {
     margin: 10,
